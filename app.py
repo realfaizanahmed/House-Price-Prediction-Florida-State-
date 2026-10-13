@@ -85,7 +85,7 @@ page = st.sidebar.radio("Navigate", ["Price Predictor", "City Insights", "About"
 
 # ================================================================ PAGE 1
 if page == "Price Predictor":
-    st.title("CityWise House Price Prediction")
+    st.title("City Wise House Price Prediction")
     st.caption("This AI based WebApp provides an Aggrigated Price for the type of House you are looking for in any city of the Florida State.")
     st.caption("Enter the property details and get an estimated price from the proposed hybrid LR-DT-ANN model.")
 
